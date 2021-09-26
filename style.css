@@ -669,6 +669,10 @@ a {
   font-size: 36px;
 }
 
+.hero-bloc-text-sub-contact {
+  font-size: 20px;
+}
+
 .statement-bloc-text {
   line-height: 26px;
   font-style: italic;
