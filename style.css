@@ -288,6 +288,14 @@ a:hover {
   font-weight: bold;
 }
 
+#bloc-4-portfolio img {
+  width: 100%;
+}
+
+#bloc-5-cta h2 {
+  font-size: 1.8em;
+}
+
 .navbar {
   margin-bottom: 0;
   z-index: 1;
@@ -653,7 +661,7 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  font-weight: 400;
+  font-weight: bold;
   color: #575757 !important;
 }
 
@@ -684,7 +692,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -742,8 +750,14 @@ h4 {
   margin-top: 24px;
 }
 
+.black {
+  color: #343334 !important;
+}
 .white {
-  color: #ffffff !important;
+  color: #fff !important;
+}
+.yellow {
+  color: #f5ce51 !important;
 }
 
 .portfolio-thumb {
@@ -1045,5 +1059,9 @@ h4 {
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+
+  .snapshot-lb .modal-body {
+    padding-bottom: 70px;
   }
 }
