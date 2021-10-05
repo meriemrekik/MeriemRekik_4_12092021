@@ -24,54 +24,59 @@
   </head>
   <body>
     <!-- Principal conteneur -->
-    <div class="page-container">
-      <!-- bloc-0 -->
-      <div class="bloc bgc-white l-bloc" id="bloc-0">
-        <div class="container bloc-sm">
-          <nav class="navbar row">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"
-                ><img
-                  src="img/la-chouette-agence.png"
-                  alt="Lyon web design logo agence web meilleure agence"
-                  height="40"
-              /></a>
+    <main class="page-container">
+      <header>
+        <!-- bloc-0 -->
+        <div class="bloc bgc-white l-bloc" id="bloc-0">
+          <div class="container bloc-sm">
+            <nav class="navbar row">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"
+                  ><img
+                    src="img/la-chouette-agence.png"
+                    alt="Lyon web design logo agence web meilleure agence"
+                    height="40"
+                    title="logo de l'agence la chouette"
+                /></a>
 
-              <button
-                id="nav-toggle"
-                type="button"
-                class="ui-navbar-toggle navbar-toggle"
-                data-toggle="collapse"
-                data-target=".navbar-1"
+                <button
+                  id="nav-toggle"
+                  type="button"
+                  class="ui-navbar-toggle navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".navbar-1"
+                >
+                  <span class="sr-only">Toggle navigation</span
+                  ><span class="icon-bar"></span><span class="icon-bar"></span
+                  ><span class="icon-bar"></span>
+                </button>
+              </div>
+              <div
+                class="collapse navbar-collapse navbar-1 special-dropdown-nav"
               >
-                <span class="sr-only">Toggle navigation</span
-                ><span class="icon-bar"></span><span class="icon-bar"></span
-                ><span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-              <ul class="site-navigation nav navbar-nav">
-                <li>
-                  <a href="index.html">Accueil</a>
-                </li>
-                <li>
-                  <a href="#bloc-3-what-i-do">Nos Engagements</a>
-                </li>
-                <li>
-                  <a href="#bloc-4-portfolio">Nos Réalisations</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+                <ul class="site-navigation nav navbar-nav">
+                  <li>
+                    <a href="index.html">Accueil</a>
+                  </li>
+                  <li>
+                    <a href="#bloc-3-what-i-do">Nos Engagements</a>
+                  </li>
+                  <li>
+                    <a href="#bloc-4-portfolio">Nos Réalisations</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
-      </div>
+      </header>
       <!-- bloc-0 END -->
 
       <!-- bloc-1-presentation -->
-      <div
+      <section
         class="
           bloc
           bgc-dark-slate-blue
@@ -91,6 +96,7 @@
                 src="img/logo.png"
                 class="center-block image-resize-mode"
                 width="100"
+                title="Logo chouette"
                 alt="La chouette agence, agence web Lyon, création logo Lyon"
               />
               <h1 class="text-center hero-bloc-text tc-white">
@@ -111,11 +117,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-1-presentation END -->
 
       <!-- bloc-2-services -->
-      <div class="bloc bgc-white l-bloc" id="bloc-2-services">
+      <section class="bloc bgc-white l-bloc" id="bloc-2-services">
         <div class="container bloc-md">
           <div class="row">
             <div class="col-sm-12 text-center">
@@ -196,11 +202,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-2-services END -->
 
       <!-- bloc-3-what-i-do -->
-      <div
+      <section
         class="
           bloc
           tc-white
@@ -236,11 +242,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-3-what-i-do END -->
 
       <!-- bloc-4-portfolio -->
-      <div
+      <section
         class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc"
         id="bloc-4-portfolio"
       >
@@ -264,6 +270,7 @@
                 ><img
                   src="img/1.jpg"
                   alt="Refonte site web journal local"
+                  title="Refonte site web journal local"
                   class="img-responsive portfolio-thumb"
               /></a>
               <h3 class="mg-md text-center">
@@ -285,6 +292,7 @@
                   src="img/2.jpg"
                   class="img-responsive portfolio-thumb"
                   alt="Création d'un site web pour photographes"
+                  title="Création d'un site web pour photographes"
               /></a>
               <h3 class="mg-md text-center">
                 Création d'un site web pour photographes
@@ -307,6 +315,7 @@
                   src="img/3.jpg"
                   class="img-responsive portfolio-thumb"
                   alt="Création d'un site web pour voyageur"
+                  title="Création d'un site web pour voyageur"
               /></a>
               <h3 class="mg-md text-center">
                 Création d'un site internet pour un voyageur
@@ -327,6 +336,7 @@
                   src="img/4.jpg"
                   class="img-responsive portfolio-thumb"
                   alt="Création d'un site web pour agence de mariage"
+                  title="Création d'un site web pour agence de mariage"
               /></a>
               <h3 class="mg-md text-center">
                 Conception d'un site pour une agence de mariage
@@ -339,11 +349,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-4-portfolio END -->
 
       <!-- bloc-5-cta -->
-      <div
+      <section
         class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture"
         id="bloc-5-cta"
       >
@@ -366,11 +376,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-5-cta END -->
 
       <!-- Footer - bloc-8 -->
-      <div class="bloc bgc-atomic-tangerine l-bloc" id="bloc-8">
+      <footer class="bloc bgc-atomic-tangerine l-bloc" id="bloc-8">
         <div class="container bloc-md">
           <div class="row">
             <div class="col--12">
@@ -422,9 +432,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </footer>
       <!-- Footer - bloc-8 END -->
-    </div>
+    </main>
     <!-- Principal conteneur END -->
     <script src="./js/jquery-2.1.0.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
