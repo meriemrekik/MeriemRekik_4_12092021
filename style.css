@@ -859,6 +859,11 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .bg-banniere {
+    background-image: url(img/min/la-chouette-agence-banniere.jpg);
+    background-size: cover !important;
+  }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
