@@ -1071,3 +1071,9 @@ h4 {
     padding-bottom: 70px;
   }
 }
+@media screen and (orientation: portrait) and (max-width: 767px) {
+  .bg-banniere {
+    background-image: url(img/mobile/la-chouette-agence-banniere.jpg);
+    background-size: cover !important;
+  }
+}
